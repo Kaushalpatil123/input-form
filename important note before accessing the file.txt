@@ -1,0 +1,6 @@
+to access this input form :-
+
+1] open this file in vs code
+2] open terminal(ctrl + ~)
+3] run command = (node server.js) it started the  server on localhost
+4] then go to browser and search for localhost:3000 also open mongodb Atlas server at same time 

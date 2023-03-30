@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InputForm</title>
+    <style>
+      body {
+        background-image: url(https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFja2dyb3VuZCUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+      h1 {
+        text-align: center;
+      }
+      .container {
+        background-color: rgb(188, 120, 120);
+        padding: 20px;
+        margin: 13px;
+        border-radius: 1.5em;
+        border-style: solid;
+        border-color: black;
+        width: 500px;
+        margin-left: 330px;
+      }
+      .container2 {
+        margin: 35px;
+      }
+      .form-control {
+        width: 400px;
+        height: 30px;
+        border-radius: 0.8em;
+      }
+      button {
+        margin-left: 185px;
+        width: 100px;
+        height: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+
+    <form action="/" class="container" method="post">
+      <div class="container2">
+        <input
+          class="form-control"
+          name="Name"
+          placeholder="Full Name"
+          required
+        />
+      </div>
+
+      <div class="container2">
+        <input class="form-control" name="Email" placeholder="Email" required />
+      </div>
+
+      <div class="container2">
+        <input
+          class="form-control"
+          name="Password"
+          placeholder="Password"
+          required
+        />
+      </div>
+
+      <div class="container2">
+        <input
+          class="form-control"
+          name="Address"
+          placeholder="Address"
+          required
+        />
+      </div>
+
+      <div class="container2">
+        <textarea
+          class="form-control"
+          name="Feedback"
+          placeholder="Feedback"
+        ></textarea>
+      </div>
+
+      <button>Submit</button>
+    </form>
+
+  </body>
+</html>
